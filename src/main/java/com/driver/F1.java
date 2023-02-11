@@ -27,4 +27,8 @@ public class F1 extends Car {
             changeSpeed(newSpeed, getCurrentDirection());
         }
     }
+
+    private int getCurrentDirection() {
+        return 0;
+    }
 }
